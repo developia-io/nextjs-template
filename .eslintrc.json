@@ -1,0 +1,19 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    // Next.js and React rules
+    "react/jsx-no-duplicate-props": "error", // Prevent duplicate props in JSX.
+    "react/prop-types": "error", // Enforce propTypes declaration for React components.
+
+    // Import rules
+    "import/first": "error", // Ensure all imports are declared before any other statements.
+    "import/no-duplicates": "error", // Disallow duplicate imports.
+    "import/no-extraneous-dependencies": "error", // Disallow the use of extraneous dependencies.
+    "import/no-unresolved": "error", // Ensure imports resolve to actual files.
+
+    // General rules
+    "no-trailing-spaces": "error", // Disallow trailing whitespace at the end of lines.
+    "no-console": "warn", // Disallow the use of console.
+    "no-debugger": "warn" // Disallow the use of debugger.
+  }
+}
