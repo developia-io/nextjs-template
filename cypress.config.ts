@@ -7,7 +7,7 @@ export default defineConfig({
       // implement node event listeners here
     },
   },
-
+  experimentalWebKitSupport: true,
   component: {
     devServer: {
       framework: "next",
